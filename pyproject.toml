@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wildthumper-6wd"
+version = "0.1.0"
+description = "WildThumper_6wd launcher"
+requires-python = ">=3.10"
+
+[project.scripts]
+wildthumper = "wildthumper_6wd.cli:main"
